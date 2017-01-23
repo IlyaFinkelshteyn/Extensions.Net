@@ -15,17 +15,3 @@ before_build:
 branches:
     only:
       - master
-
-deploy:
-  provider: NuGet
-  api_key:
-    secure: NsRG1nF95vnbl0Bk1WH1Y8s5md4U3oGw/A4GYZnepJ6r10AqPrRdyazpVZeyQBB8
-  skip_symbols: false
-  artifact: /.*\.nupkg/
-  
-    
-
-  
-  
-
-
